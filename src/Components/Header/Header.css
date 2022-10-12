@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;   
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(7, 113, 113);
+}
+
+        /* header styie */
+
+.container {
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(23, 23, 23, 0.38);
+    position: absolute;
+         top: 0;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+header a {
+    text-decoration: none;
+    margin-right: 100px;
+    letter-spacing: 5px;
+    color: rgba(180, 188, 187, 0.704);
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 15px;
+}
