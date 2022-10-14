@@ -1,0 +1,18 @@
+button.accordion-button.collapsed {
+    width: 70%;
+    margin: auto;
+}
+.accordion-header {
+background-color: rgb(199, 230, 229);
+
+}
+
+.accordion {
+    
+    width: 100%;
+} 
+
+.accordion-body {
+    width: 70%;
+    margin: auto;
+}

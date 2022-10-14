@@ -8,6 +8,7 @@ import CoronaApi from '../Main/CoronaApi';
 
   return (
           <div>
+                <Header/>
           <CoronaApi/>
           </div>   
   )

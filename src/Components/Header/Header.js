@@ -13,14 +13,13 @@ import Axios from "axios";
 
   render() {
     return (
-      <div className="container">
+      <div id="container">
         <header>
-          <a href="">LOGO</a>
+          <a href="">INDIA COVID</a>
 
           <nav>
-            <a path="#">Home</a>
-            <a path="#">About</a>
-            <a path="#">Contact</a>
+            <a path="#"></a>
+           
           </nav>
 
         </header>

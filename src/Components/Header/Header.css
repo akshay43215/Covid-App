@@ -5,29 +5,36 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(7, 113, 113);
+    background-color: rgb(39, 118, 118);
 }
 
         /* header styie */
 
-.container {
+#container {
     width: 100%;
-    padding: 20px;
-    background-color: rgba(23, 23, 23, 0.38);
-    position: absolute;
-         top: 0;
+    height: 100px;
+    padding:20px;
+    border: 1px solid;
+    margin-bottom: 0px;
+    height: fit-content;
+    background-color: rgb(60, 99, 108);
+
 }
-header .container {
+header  {
+   
     display: flex;
     justify-content: space-between;
+    align-items: center;
     
 }
 header a {
     text-decoration: none;
     margin-right: 100px;
-    letter-spacing: 5px;
-    color: rgba(180, 188, 187, 0.704);
+    letter-spacing: 2px;
+    margin-left: 50px;
+    color: rgba(164, 199, 193, 0.704);
     font-family: serif;
-    font-weight: bolder;
-    font-size: 15px;
+    font-weight: 200;
+    font-size: 20px;
 }
+ 
